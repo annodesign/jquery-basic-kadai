@@ -3,7 +3,7 @@ $(function() {
     $('#target').css('color', 'blue');
   });
   $('#change-text').on('click',function() {
-    $('#target').text('Hello');
+    $('#target').text('Hello!');
   });
   // ２秒の時間も設定してみました
   $('#fade-out').on('click',function() {
